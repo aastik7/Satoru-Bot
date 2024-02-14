@@ -38,3 +38,11 @@ def day_handler(message):
         message.chat.id, text, parse_mode="Markdown")
     bot.register_next_step_handler(
         sent_msg, fetch_horoscope, sign.capitalize())
+    
+def fetch_horoscope(message, sign):
+    day = message.text
+    horoscope = get_daily_horoscope(sign, day)
+    data = horoscope["data"]
+    horoscope_message = f'*Horoscope:* {data["horoscope_data"]}\\n*Sign:* {sign}\\n*Day:* {data["date"]}'
+    bot.send_message(message.chat.id, "Here's your horoscope!")
+    bot.send_message(message.chat.id, horoscope_message, parse_mode="Markdown")
