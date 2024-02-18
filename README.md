@@ -3,7 +3,7 @@
 Satoru Bot is a Telegram bot that provides daily horoscope readings based on zodiac signs. Users can ask for their horoscope for today, tomorrow, or any specific date.
 
 ```bash
-  Telegram username: satoru_telbot
+  Telegram username: @satoru_telbot
 ```
     
 ## Features
