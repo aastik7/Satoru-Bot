@@ -55,10 +55,6 @@ python bot.py
 
 Contributions are welcome! If you find any bugs or have suggestions for improvements, please open an issue or submit a pull request.
 
-## Credits
-
-This bot was created by [Aastik](https://github.com/aastik7).
-
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
